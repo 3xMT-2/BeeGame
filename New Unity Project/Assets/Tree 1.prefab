@@ -1,99 +1,11 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &650652680633735556
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2750021520091758854}
-  - component: {fileID: 2316178824111541671}
-  - component: {fileID: 1873269038392763787}
-  - component: {fileID: 8593103219199815907}
-  m_Layer: 0
-  m_Name: Tree 1
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2750021520091758854
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 650652680633735556}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!193 &2316178824111541671
-Tree:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 650652680633735556}
-  m_SpeedTreeWindAsset: {fileID: 0}
-  m_TreeData: {fileID: 114274463458365024}
---- !u!33 &1873269038392763787
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 650652680633735556}
-  m_Mesh: {fileID: 43289198288435382}
---- !u!23 &8593103219199815907
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 650652680633735556}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 21978719876666164}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
 --- !u!21 &21334971783656000
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
   m_Name: Optimized Leaf Material
   m_Shader: {fileID: 10605, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
@@ -137,9 +49,8 @@ Material:
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
   m_Name: Optimized Bark Material
   m_Shader: {fileID: 10604, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
@@ -175,11 +86,10 @@ Material:
 --- !u!43 &43289198288435382
 Mesh:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
   m_Name: Mesh
-  serializedVersion: 9
+  serializedVersion: 8
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -205,6 +115,7 @@ Mesh:
   m_KeepIndices: 1
   m_IndexFormat: 0
   m_IndexBuffer: 0d0000000e00000001000e000e0001000f00010002000f000f0002000f00020003000f000f000300100003000400100010000400110004000500110011000500120005000600120012000600130006000700130013000700140007000800140014000800150008000900150015000900150009000a00150015000a0016000a000b00160016000b0017000b000c00170018000d0019000d000e00190019000e001a000e000f001a001a000f001a000f0010001a001a0010001b00100011001b001b0011001c00110012001c001c0012001d00120013001d001d0013001e00130014001e001e0014001e00140015001e001e0015001f00150016001f001f001600200016001700200021001800220018001900220022001900230019001a00230023001a0024001a001b00240024001b0025001b001c00250025001c0026001c001d00260026001d0027001d001e00270027001e0028001e001f00280028001f0029001f00200029002a0021002b00210022002b002b0022002c00220023002c002c0023002c00230024002c002c0024002d00240025002d002d0025002e00250026002e002e0026002e00260027002e002e0027002f00270028002f002f002800300028002900300031002a0032002a002b00320032002b0032002b002c00320032002c0033002c002d00330033002d0034002d002e00340034002e0034002e002f00340034002f0035002f0030003500360031003700310032003700370032003800320033003800380033003900330034003900390034003a00340035003a003b0036003c00360037003c003c0037003d00370038003d003d0038003e00380039003e003e0039003f0039003a003f0040003b0041003b003c00410041003c0042003c003d00420042003d0043003d003e00430043003e0044003e003f004400
+  m_Skin: []
   m_VertexData:
     serializedVersion: 2
     m_VertexCount: 69
@@ -233,14 +144,6 @@ Mesh:
       offset: 64
       format: 0
       dimension: 2
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
     - stream: 0
       offset: 0
       format: 0
@@ -325,19 +228,12 @@ Mesh:
   m_MeshUsageFlags: 0
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
-  m_MeshMetrics[0]: 1
-  m_MeshMetrics[1]: 1
   m_MeshOptimized: 0
-  m_StreamData:
-    offset: 0
-    size: 0
-    path: 
 --- !u!114 &114274463458365024
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -836,3 +732,84 @@ MonoBehaviour:
   optimizedSolidMaterial: {fileID: 21978719876666164}
   optimizedCutoutMaterial: {fileID: 21334971783656000}
   isInPreviewMode: 0
+--- !u!1 &650652680633735556
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 2750021520091758854}
+  - component: {fileID: 2316178824111541671}
+  - component: {fileID: 1873269038392763787}
+  - component: {fileID: 8593103219199815907}
+  m_Layer: 0
+  m_Name: Tree 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!33 &1873269038392763787
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 650652680633735556}
+  m_Mesh: {fileID: 43289198288435382}
+--- !u!193 &2316178824111541671
+Tree:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 650652680633735556}
+  m_SpeedTreeWindAsset: {fileID: 0}
+  m_TreeData: {fileID: 114274463458365024}
+--- !u!4 &2750021520091758854
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 650652680633735556}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.5, y: -8.7, z: 14.2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &8593103219199815907
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 650652680633735556}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_Materials:
+  - {fileID: 21978719876666164}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
