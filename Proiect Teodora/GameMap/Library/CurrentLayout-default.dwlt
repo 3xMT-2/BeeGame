@@ -67,8 +67,8 @@ MonoBehaviour:
     y: 0
     width: 441
     height: 731
-  m_MinSize: {x: 277, y: 72}
-  m_MaxSize: {x: 4002, y: 4022}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -554,8 +554,8 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
+      m_SelectedIDs: 0c330000
+      m_LastClickedID: 13068
       m_ExpandedIDs: 2afbffff14330000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
@@ -616,9 +616,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 1500, y: 279.34445, z: 3000}
+    m_Target: {x: 1480.1731, y: 807.0897, z: 4152.6074}
     speed: 2
-    m_Value: {x: 1500, y: 279.34445, z: 3000}
+    m_Value: {x: 1480.1731, y: 807.0897, z: 4152.6074}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -647,13 +647,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.11619722, y: -0.11986287, z: 0.014028676, w: 0.9859255}
+    m_Target: {x: 0.0008667069, y: -0.9974943, z: -0.07103674, w: -0.0096497545}
     speed: 2
-    m_Value: {x: -0.11619722, y: 0.11986286, z: -0.014028675, w: -0.98592544}
+    m_Value: {x: 0.0006435657, y: -0.99755687, z: -0.06953797, w: -0.0066577555}
   m_Size:
-    m_Target: 7931.7217
+    m_Target: 2270.7783
     speed: 2
-    m_Value: 8305.468
+    m_Value: 2377.7783
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -716,10 +716,10 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -385.5
-    m_HBaseRangeMax: 385.5
-    m_VBaseRangeMin: -210
-    m_VBaseRangeMax: 210
+    m_HBaseRangeMin: -308.4
+    m_HBaseRangeMax: 308.4
+    m_VBaseRangeMin: -168
+    m_VBaseRangeMax: 168
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -728,7 +728,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
+    m_EnableMouseInput: 0
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -755,7 +755,7 @@ MonoBehaviour:
   m_defaultScale: 1
   m_TargetTexture: {fileID: 0}
   m_CurrentColorSpace: 0
-  m_LastWindowPixelSize: {x: 771, y: 437}
+  m_LastWindowPixelSize: {x: 963.75, y: 546.25}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
